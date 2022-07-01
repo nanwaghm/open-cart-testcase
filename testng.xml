@@ -5,8 +5,8 @@
     <classes>
       <class name="TestCases.TestCasePrice">
       <methods>
-  			<include name ="priceCalculation"></include> 				
-  			<exclude name="updateCustomerInfo"></exclude>
+  			<include name ="updateCustomerInfo"></include> 				
+  			<exclude name="priceCalculation"></exclude> 			
   	</methods>
       </class>
     </classes>

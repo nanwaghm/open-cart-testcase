@@ -17,6 +17,12 @@ public class LoginPage {
 		this.driver=driver;
 	}
 	
+	@Test
+  public void launchOpenCartAdmin() {
+	driver.get("https://demo.opencart.com/admin/index.php?route=common/login");
+	System.out.println("Navigated to OpenCart");
+	}
+	
   @Test
   public void login() {
 	  driver.findElement(username).sendKeys("demo");
@@ -24,7 +30,7 @@ public class LoginPage {
 	  driver.findElement(password).sendKeys("demo");
 	  System.out.println("Entered password succesfully");
 	  driver.findElement(login).click();
-	  System.out.println("Navigated to open cart site succesfully");
+	  System.out.println("Logged in to open cart site succesfully");
   }
   
   

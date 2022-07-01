@@ -2,20 +2,20 @@
 <testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-01T01:52:26 IST" name="Suite" finished-at="2022-07-01T01:52:51 IST" duration-ms="24696">
+  <suite started-at="2022-07-01T13:50:24 IST" name="Suite" finished-at="2022-07-01T13:50:56 IST" duration-ms="31699">
     <groups>
     </groups>
-    <test started-at="2022-07-01T01:52:26 IST" name="Test" finished-at="2022-07-01T01:52:51 IST" duration-ms="24696">
+    <test started-at="2022-07-01T13:50:24 IST" name="Test" finished-at="2022-07-01T13:50:56 IST" duration-ms="31699">
       <class name="TestCases.TestCasePrice">
-        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestCases.TestCasePrice@209da20d]" started-at="2022-07-01T01:52:19 IST" name="beforeSuite" finished-at="2022-07-01T01:52:26 IST" duration-ms="7013" status="PASS">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:TestCases.TestCasePrice@3bf9ce3e]" started-at="2022-07-01T13:50:24 IST" name="beforeSuite" finished-at="2022-07-01T13:50:27 IST" duration-ms="3040" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method signature="priceCalculation()[pri:0, instance:TestCases.TestCasePrice@209da20d]" started-at="2022-07-01T01:52:26 IST" name="priceCalculation" finished-at="2022-07-01T01:52:51 IST" duration-ms="24633" status="PASS">
+        <test-method signature="updateCustomerInfo()[pri:0, instance:TestCases.TestCasePrice@3bf9ce3e]" started-at="2022-07-01T13:50:27 IST" name="updateCustomerInfo" finished-at="2022-07-01T13:50:56 IST" duration-ms="28627" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- priceCalculation -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestCases.TestCasePrice@209da20d]" started-at="2022-07-01T01:52:51 IST" name="afterSuite" finished-at="2022-07-01T01:52:51 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- updateCustomerInfo -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:TestCases.TestCasePrice@3bf9ce3e]" started-at="2022-07-01T13:50:56 IST" name="afterSuite" finished-at="2022-07-01T13:50:56 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

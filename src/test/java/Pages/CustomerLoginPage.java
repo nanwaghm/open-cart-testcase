@@ -1,7 +1,11 @@
 package Pages;
 
+import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
 public class CustomerLoginPage {
@@ -22,15 +26,22 @@ public class CustomerLoginPage {
   @Test
   public void GotocustomerAccountLogin() {
 	  driver.findElement(myAccount).click();
+	  System.out.println("Navigatede to My Account");
 	  driver.findElement(acctLogin).click();
-	  	  
+	  System.out.println("Navigatede to Account Login page");
   }
   
-  public void loginToCustomerAccount() {
-	  driver.findElement(acctEmail).sendKeys("");
-	  driver.findElement(acctPwd).sendKeys("");
+  public void loginToCustomerAccount() throws InterruptedException {
+	  driver.findElement(acctEmail).sendKeys("wnandini38@gmail.com");
+	  System.out.println("Entered Customer email address successfully");
+	  driver.findElement(acctPwd).sendKeys("abc@11");
+	  System.out.println("Entered Password successfully");
+	  WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
+	  wait.until(ExpectedConditions.elementToBeClickable(acctLoginbtn));
+	  Thread.sleep(1000);
 	  driver.findElement(acctLoginbtn).click();
+	  System.out.println("Logged in to Customer Account successfully");
 	  	  
   }
-  
 }
+  

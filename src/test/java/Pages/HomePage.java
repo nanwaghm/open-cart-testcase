@@ -38,5 +38,6 @@ public class HomePage {
 	  driver.findElement(lnkcustMain).click();
 	  wait.until(ExpectedConditions.visibilityOfElementLocated(lnkcustOpt));
 	  driver.findElement(lnkcustOpt).click();
+	  System.out.println("Navigated to customers");
   }
 }
